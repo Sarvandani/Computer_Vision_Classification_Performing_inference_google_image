@@ -1,3 +1,12 @@
+[![PyPI license](https://img.shields.io/pypi/l/ansicolortags.svg)](https://pypi.python.org/pypi/ansicolortags/)
+ <img src="https://img.shields.io/badge/Colab-F9AB00?style=for-the-badge&logo=googlecolab&color=525252" /> 
+ 
+# Deep_Learning_Classification_Performing_inference_google_image
+
+Once a pretrained model like ResNet or VGG has been trained or fine-tuned, it can be deployed for inference on new, unseen images. During inference, the pretrained model processes input images to predict their class labels or probabilities based on the knowledge it gained from the large-scale datasets it was trained on, such as ImageNet. This process doesn't involve updating the model's parameters but rather utilizes the learned weights to make predictions without further optimization.
+Here we utilize pre-trained deep learning models (such as MobileNetV2, VGG16, ResNet50, EfficientNetB0) to classify one image of google map. However, these pretrained models are typically trained on general datasets and may not be optimized for satellite imagery data. We conducted a comparison of their performance on our dataset.
+
+
 ```python
 import requests
 from PIL import Image
@@ -104,6 +113,8 @@ plt.show()
     1/1 [==============================] - 1s 889ms/step
     1/1 [==============================] - 1s 1s/step
     1/1 [==============================] - 4s 4s/step
+
+
 
 
 
