@@ -119,6 +119,8 @@ plt.show()
 ## results: 
 We can observe that performing inference using general pretrained models such as MobileNetV2, VGG16, ResNet50, and EfficientNetB0 did not yield satisfactory results for image classification of satellite images like Google Maps.
 
+`DISCLAIMER`: I don't warrant this code in any way whatsoever. This code is provided "as-is" to be used at your own risk.
+
     
 
     
