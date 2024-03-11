@@ -114,12 +114,12 @@ plt.show()
     1/1 [==============================] - 1s 1s/step
     1/1 [==============================] - 4s 4s/step
 
-
+![png](README_files/README_0_5.png)
 
 ## results: 
 We can observe that performing inference using general pretrained models such as MobileNetV2, VGG16, ResNet50, and EfficientNetB0 did not yield satisfactory results for image classification of satellite images like Google Maps.
 
     
-![png](README_files/README_0_5.png)
+
     
 
